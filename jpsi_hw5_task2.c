@@ -18,7 +18,8 @@
 /* Main Program */ // Task 2 // 
 int main(void)
 {
-// wtf2
+// w
+// xD
 	return 0;
 }
 
