@@ -46,7 +46,7 @@ void AnnulusMoment(double Rout, double Rin)
 {
 float I;
 
-I = (pi/4 * pow(Rout,4) - pow(Rin,4));
+I = (pi/4 * (pow(Rout,4) - pow(Rin,4)));
 
 printf("\nThe second moment of inertia is %lf\n\n", I);
 
