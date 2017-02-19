@@ -37,7 +37,7 @@ int main(void)
 		printf("\n");          // Style points
 	return 0;
 }
-
+// Version 1.2
 
 /* Function Defenitions */
 float MakeMilesKmTable(float miles) 
