@@ -19,11 +19,13 @@ float MakeMilesKmTable(float m);
 /* Main Program */ // Task 2 // 
 int main(void)
 {
-	float miles, end, answer;
+	float miles, end, answer,inc;
 	printf("Enter the starting miles: \n");
 	scanf("%f",&miles);
 	printf("Enter the ending miles: \n");
 	scanf("%f",&end);
+	printf("Enter the increments: \n");
+	scanf("%f",&inc);
 	int i=0,j=end-miles;       // This is how many times it will print
 	printf(" Miles    Kilometers\n");
 	printf(" -----    ----------\n");
@@ -31,8 +33,8 @@ int main(void)
 	{
 		answer = MakeMilesKmTable(miles);
 		printf("%5.1f   %9.2f\n",miles,answer);
-		miles++;               // Update the miles it will convert to Km
-		i++;
+		miles = miles + inc;               // Update the miles it will convert to Km
+		i= i + inc;
 	}
 		printf("\n");          // Style points
 	return 0;
